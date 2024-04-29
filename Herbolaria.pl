@@ -1,67 +1,4 @@
 % Propiedades medicinales que tienen las plantas
-propiedades(geranio, astringentes).
-propiedades(geranio, estimulante).
-propiedades(geranio, descongestionante).
-
-
-propiedades(girasol, alivio_dolor).
-propiedades(girasol, relajante).
-propiedades(girasol, cicatrizante).
-
-
-
-propiedades(gingseng, astringentes).
-propiedades(gingsengc, estimulante).
-propiedades(gingseng, cicatrizante).
-propiedades(gingseng, alivio_dolor).
-propiedades(gingseng, relajante).
-propiedades(gingseng, antiinflamatorio).
-propiedades(gingseng, expectorante).
-propiedades(gingseng, etc).
-
-
-% Metodo de uso para las plantas
-metodo_de_uso(geranio, decocción).
-metodo_de_uso(geranio, inhalación).
-metodo_de_uso(geranio, ungüento).
-
-metodo_de_uso(girasol, decocción).
-metodo_de_uso(girasol, ingerir).
-
-metodo_de_uso(gingseng, ingerir).
-metodo_de_uso(gingseng, infusion).
-
-
-% Relación entre plantas y para que se pueden tratar
-cura(geranio, hemorragias).
-cura(geranio, nefritis).
-
-cura(girasol, hemicranea).
-cura(girasol, transtornos_nerviosos).
-cura(girasol, dolores).
-cura(girasol, pulmonia).
-cura(girasol, llagas).
-
-
-cura(gingseng, hemorragias).
-cura(gingseng, nefritis).
-cura(gingseng, hemicranea).
-cura(gingseng, transtornos_nerviosos).
-cura(gingseng, dolores).
-cura(gingseng, pulmonia).
-cura(gingseng, llagas).
-cura(gingseng, algunos_más).
-
-
-
-% Fortalecimiento del organismo
-fortalece_sistema_digestivo(geranio).
-fortalece_sistema_digestivo(gingseng).
-fortalece_sistema_cognitivo(gingseng).
-
-%----------------------------------------------------------------------------------------------------------------
-
-% Propiedades medicinales que tienen las plantas
 propiedades(jengibre, antiinflamatorio).
 propiedades(jengibre, digestivo).
 propiedades(jengibre, estimulante).
@@ -122,4 +59,62 @@ fortalece_sistema_respiratorio(eucalipto).
 
 
 
+propiedades(geranio, astringentes).
+propiedades(geranio, estimulante).
+propiedades(geranio, descongestionante).
 
+
+propiedades(girasol, alivio_dolor).
+propiedades(girasol, relajante).
+propiedades(girasol, cicatrizante).
+
+
+
+propiedades(gingseng, astringentes).
+propiedades(gingsengc, estimulante).
+propiedades(gingseng, cicatrizante).
+propiedades(gingseng, alivio_dolor).
+propiedades(gingseng, relajante).
+propiedades(gingseng, antiinflamatorio).
+propiedades(gingseng, expectorante).
+propiedades(gingseng, etc).
+
+
+% Metodo de uso para las plantas
+metodo_de_uso(geranio, decocción).
+metodo_de_uso(geranio, inhalación).
+metodo_de_uso(geranio, ungüento).
+
+metodo_de_uso(girasol, decocción).
+metodo_de_uso(girasol, ingerir).
+
+metodo_de_uso(gingseng, ingerir).
+metodo_de_uso(gingseng, infusion).
+
+
+% Relación entre plantas y para que se pueden tratar
+cura(geranio, hemorragias).
+cura(geranio, nefritis).
+
+cura(girasol, hemicranea).
+cura(girasol, transtornos_nerviosos).
+cura(girasol, dolores).
+cura(girasol, pulmonia).
+cura(girasol, llagas).
+
+
+cura(gingseng, hemorragias).
+cura(gingseng, nefritis).
+cura(gingseng, hemicranea).
+cura(gingseng, transtornos_nerviosos).
+cura(gingseng, dolores).
+cura(gingseng, pulmonia).
+cura(gingseng, llagas).
+cura(gingseng, algunos_más).
+
+
+
+% Fortalecimiento del organismo
+fortalece_sistema_digestivo(geranio).
+fortalece_sistema_digestivo(gingseng).
+fortalece_sistema_cognitivo(gingseng).
